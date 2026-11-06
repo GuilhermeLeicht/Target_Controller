@@ -1,0 +1,50 @@
+# Python - cache e arquivos temporários
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# PyInstaller - arquivos gerados
+build/
+dist/
+*.spec
+
+# Configurações locais e segredos
+config.json
+.env
+.env.*
+!.env.example
+
+# Bancos de dados locais/reais
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Banco fictício permitido para testes
+!db_teste.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.backup
+*.zip
+
+# IDE e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
